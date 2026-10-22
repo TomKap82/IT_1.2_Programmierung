@@ -89,25 +89,16 @@
     <label class="field">Bei „Beide Schuhe an?“ → Ja:<select id="shoesBranch"><option value="">Bitte wählen …</option><option value="again">Noch einen Schuh anziehen</option><option value="end">Ablauf beenden</option><option value="start">Zurück zum Start springen</option></select></label></div>
     <div class="actions"><button class="btn" data-check="branches">Entscheidungen prüfen</button></div><div class="feedback" id="fb-branches" aria-live="polite"></div><p class="subtle">Merke: Eine Entscheidung prüft eine Bedingung; eine Wiederholung führt zu einem früheren Schritt zurück.</p>
    </article>
-   <article class="card"><span class="task-label open">Forscherauftrag 2a · Zwei Flussdiagramme bauen</span><h3>Entwirf eigene Flussdiagramme für deinen Alltag</h3><p>Denke dir <strong>zwei weitere Alltagssituationen</strong> aus. Trage jeweils einen Handlungsschritt und eine Ja-/Nein-Frage mit zwei möglichen Fortsetzungen ein. Das Diagramm darunter baut sich während des Schreibens automatisch auf.</p>
+   <article class="card"><span class="task-label open">Forscherauftrag 2a · Ein Flussdiagramm bauen</span><h3>Entwirf ein eigenes Flussdiagramm für deinen Alltag</h3><p>Denke dir <strong>eine weitere Alltagssituation</strong> aus. Trage jeweils Handlungsschritte und Ja-/Nein-Fragen mit zwei möglichen Fortsetzungen ein. Das Diagramm darunter baut sich während des Schreibens automatisch auf.</p>
     <div class="two">
      <div class="example-box"><h4>Mein Flussdiagramm A</h4>
       <div class="stepper">
        <label class="field">Situation<input data-note="myFlowATitle" data-build="A" placeholder="z. B. Schultasche packen"></label>
-       <label class="field">Handlungsschritt<input data-note="myFlowAStep" data-build="A" placeholder="Ein Buch einpacken"></label>
-       <label class="field">Entscheidungsfrage (Ja/Nein)<input data-note="myFlowAQuestion" data-build="A" placeholder="Alles eingepackt?"></label>
-       <label class="field">Bei Ja …<input data-note="myFlowAYes" data-build="A" placeholder="Tasche schließen"></label>
-       <label class="field">Bei Nein …<input data-note="myFlowANo" data-build="A" placeholder="Weiteres Buch einpacken"></label>
+       <label class="field">Handlungsschritt<input data-note="myFlowAStep" data-build="A"></label>
+       <label class="field">Entscheidungsfrage (Ja/Nein)<input data-note="myFlowAQuestion" data-build="A"></label>
+       <label class="field">Bei Ja …<input data-note="myFlowAYes" data-build="A"></label>
+       <label class="field">Bei Nein …<input data-note="myFlowANo" data-build="A"></label>
       </div><div class="diagram" id="diagramA" aria-live="polite"></div>
-     </div>
-     <div class="example-box"><h4>Mein Flussdiagramm B</h4>
-      <div class="stepper">
-       <label class="field">Situation<input data-note="myFlowBTitle" data-build="B" placeholder="z. B. Pflanzen gießen"></label>
-       <label class="field">Handlungsschritt<input data-note="myFlowBStep" data-build="B" placeholder="Erde kontrollieren"></label>
-       <label class="field">Entscheidungsfrage (Ja/Nein)<input data-note="myFlowBQuestion" data-build="B" placeholder="Ist die Erde trocken?"></label>
-       <label class="field">Bei Ja …<input data-note="myFlowBYes" data-build="B" placeholder="Pflanze gießen"></label>
-       <label class="field">Bei Nein …<input data-note="myFlowBNo" data-build="B" placeholder="Nicht gießen"></label>
-      </div><div class="diagram" id="diagramB" aria-live="polite"></div>
      </div>
     </div>
     <div class="actions"><button class="btn secondary" data-opencheck="ownFlow">Meine beiden Diagramme prüfen</button></div><div class="feedback" id="fb-ownFlow" aria-live="polite"></div>
